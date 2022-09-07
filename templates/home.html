@@ -1,85 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOLA!</title>
-    <meta name="description" content="Showcase Page">
-    <meta name="author" content="JoC">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta name="description" content="Showcase Page" />
+    <meta name="author" content="JoC" />
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='favicon.ico') }}"
+    />
     <!-- bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css"
+    />
     <!-- devicon -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+  </head>
+  <body>
     <!-- <div class="pageloader is-left-to-right is-active"></div> -->
     <section class="hero is-success is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                  Jose Vega
-                </h1>
-                <h2 class="subtitle has-text-weight-bold">
-                    I'm a software engineer trying to make cool stuff
-                </h2>
-                <h2 class="subtitle">
-                    Here is where you can find me or checkout nifty projects
-                </h2>
-                <div class="flex-me">
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom" data-tooltip="Portfolio">
-                        <a href="https://jose-vega-resume.herokuapp.com/" target="_blank">
-                            <i class="devicon-rails-plain-wordmark colored"></i>
-                        </a>
-                    </span>
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom" data-tooltip="Portfolio #2">
-                        <a href="https://flask-portfolio-jv.herokuapp.com/" target="_blank">
-                            <i class="devicon-python-plain-wordmark colored"></i>
-                        </a>
-                    </span>
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom" data-tooltip="Github">
-                        <a href="https://github.com/jocvegar" target="_blank">
-                            <i class="devicon-github-plain-wordmark"></i>
-                        </a>
-                    </span>
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom" data-tooltip="Blog">
-                        <a href="https://jv-blog.netlify.com/" target="_blank">
-                            <i class="devicon-vuejs-line-wordmark"></i>
-                        </a>
-                    </span>
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom has-tooltip-multiline" data-tooltip="BitBucker -  Most of the repos are hidden :(">
-                        <a href="https://bitbucket.org/jocvegar/" target="_blank">
-                            <i class="devicon-bitbucket-plain-wordmark colored"></i>
-                        </a>
-                    </span>
-                    <span class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom" data-tooltip="Twitter">
-                        <a href="https://twitter.com/hekahnd" target="_blank">
-                            <i class="devicon-twitter-plain colored"></i>
-                        </a>
-                    </span>
-                </div>
-            </div>
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Jose Vega</h1>
+          <h2 class="subtitle has-text-weight-bold">
+            I'm a software engineer trying to make cool stuff
+          </h2>
+          <h2 class="subtitle">
+            Here is where you can find me or checkout nifty projects
+          </h2>
+          <div class="flex-me">
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom"
+              data-tooltip="Portfolio"
+            >
+              <a href="https://jose-vega-resume.herokuapp.com/" target="_blank">
+                <i class="devicon-rails-plain-wordmark colored"></i>
+              </a>
+            </span>
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom"
+              data-tooltip="Portfolio #2"
+            >
+              <a
+                href="https://flask-portfolio-jv.herokuapp.com/"
+                target="_blank"
+              >
+                <i class="devicon-python-plain-wordmark colored"></i>
+              </a>
+            </span>
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom"
+              data-tooltip="Github"
+            >
+              <a href="https://github.com/jocvegar" target="_blank">
+                <i class="devicon-github-plain-wordmark"></i>
+              </a>
+            </span>
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom"
+              data-tooltip="Blog"
+            >
+              <a href="https://jv-blog.netlify.com/" target="_blank">
+                <i class="devicon-vuejs-line-wordmark"></i>
+              </a>
+            </span>
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom has-tooltip-multiline"
+              data-tooltip="BitBucker -  Most of the repos are hidden :("
+            >
+              <a href="https://bitbucket.org/jocvegar/" target="_blank">
+                <i class="devicon-bitbucket-plain-wordmark colored"></i>
+              </a>
+            </span>
+            <span
+              class="icon has-tooltip-warning is-large tooltip is-tooltip-bottom"
+              data-tooltip="Twitter"
+            >
+              <a href="https://twitter.com/hekahnd" target="_blank">
+                <i class="devicon-twitter-plain colored"></i>
+              </a>
+            </span>
+          </div>
         </div>
-        <div class="hero-foot has-text-centered is-size-6">
-           {{name}} &copy; {{now}}
-        </div>
+      </div>
+      <div class="hero-foot has-text-centered is-size-6">
+        {{name}} &copy; {{now}}
+      </div>
     </section>
-      <style>
-        .icon i {
-            font-size: 2.5rem;
-        }
-        span {
-            padding-left: 1rem;
-        }
-        .flex-me {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            align-items: center;
-            align-content: space-around;
-        }
-      </style>
-</body>
+    <style>
+      .icon i {
+        font-size: 2.5rem;
+      }
+      span {
+        padding-left: 1rem;
+      }
+      .flex-me {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-around;
+      }
+    </style>
+  </body>
 </html>
